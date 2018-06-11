@@ -38,7 +38,7 @@
         <div class="title-bar">
 
           <!-- Your title is also defined in the _config.yml file -->
-          <h2 class="header-title" itemprop="jobTitle">初级 PHP 工程师</h2>
+          <h2 class="header-title" itemprop="jobTitle">初级 全栈 工程师</h2>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           <!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
@@ -138,7 +138,7 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>现阶段我正在学习 PHP 相关的知识，正在致力于成为 Web 相关技术的专家。希望能通过发现和创造别人没有尝试过的事物，来为他人提供便利和帮助。</p>
+          <p>现阶段我正在学习 PHP 及前端相关的知识，致力于成为全栈相关技术的专家。希望能通过发现和创造别人没有尝试过的事物，来为他人提供便利和帮助。</p>
         </div>
 
         <!-- 
@@ -154,6 +154,63 @@
         <header class="section-header">
           <h2>工作经历</h2>
         </header>
+
+
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">独立开发者</h3>
+
+          <h4 class="resume-item-details" itemprop="description">奥特莱斯在线商城系统 &bull; 2018,3 &mdash; 2018,4</h4>
+          <p class="resume-item-copy">该商城系统接入商家微信公众号后台进行服务, 顾客可以在前台页面上进行商品的购买与支付, 商城管理员可以在后台进行商品发布与商场管理等操作.</p>
+          <ul class="resume-item-list">
+            <li>后端由 Laravel 5.5 提供所有 API 支持</li>
+            <li>后台管理系统的前端由 Angualar 5 编写</li>
+            <li>顾客终端支持微信 + 支付宝 在线支付</li>
+            <li>管理员终端支持订单操作, 支持报表导出</li>
+          </ul>
+          <p class="resume-item-copy">亮点</p>
+          <ul class="resume-item-list">
+            <li>单人独立完成了后端以及后台系统的开发</li>
+            <li>在1个月的时间内, 从零基础自学Angular, 到完成一个可用的后台管理系统</li>
+          </ul>
+
+          
+          <h4 class="resume-item-details" itemprop="description">付费订阅服务, 信息共享与发布系统-嘀嘀嘀 &bull; 2018,5 &mdash; 2018,6</h4>
+          <p class="resume-item-copy">帮助需要进行订阅服务的用户发布信息, 从而找到其他人一起进行付费订阅</p>
+          <ul class="resume-item-list">
+            <li>个人业余非营利性质项目</li>
+            <li>项目处于初级测试阶段, 尚未完成</li>
+            <li>Laravel + Angular</li>
+            <li><a target="blank" href="http://kaiche.co">点击访问 http://kaiche.co</a></li>
+          </ul>
+          <p class="resume-item-copy">亮点</p>
+          <ul class="resume-item-list">
+            <li>项目后期将提供 Telegram Bot 接入服务, 从而简化用户操作流程, 降低用户学习成本</li>
+          </ul>
+          
+
+        </div><!-- end of resume-item -->
+
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">长沙 Lookfeel 网络科技 (lookfeel.co)</h3>
+          <h4 class="resume-item-details" itemprop="description">PHP 开发工程师 &bull; 2016,12 &mdash; 2017,10</h4>
+          <p class="resume-item-copy">商户微信卡券后台管理系统 后台API编写</p>
+          <ul class="resume-item-list">
+            <li>通过微信公众号 API 对客户的需求进行二次开发</li>
+            <li>通过该系统, 商家可以创建高级微信卡券, 并对已经创建的微信卡券进行管理</li>
+          </ul>
+          <p class="resume-item-copy">微信二维码后台统计系统</p>
+          <ul class="resume-item-list">
+            <li>商家可以通过该系统生成带参数的微信二维码, 当顾客扫码之后, 系统后台记录相应数据, 从而得出各个二位码的会员转化率等数据</li>
+            <li>后台由 Laravel + Blade 模板完成</li>
+          </ul>
+          <p class="resume-item-copy">平和堂微信后台管理系统</p>
+          <ul class="resume-item-list">
+            <li>工作内容包括后台系统的日常维护, Bug修复以及新功能添加等</li>
+          </ul>
+
+        </div><!-- end of resume-item -->
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
@@ -239,13 +296,14 @@
         </header>
 
         <div class="resume-item">
-          <h4 class="resume-item-details">Web 开发（初级水平）</h4>
-          <p class="resume-item-copy">PHP，Laravel，Bootstrap/Vuejs，Bower/Gulp，MySQL/SQLite</p>
+          <h4 class="resume-item-details">编程技能</h4>
+          <p class="resume-item-copy">PHP，Laravel，Angular，Bower/Gulp，MySQL/SQLite</p>
         </div>
 
         <div class="resume-item">
           <h4 class="resume-item-details">其他</h4>
           <p class="resume-item-copy">Lua，Python，Git/Composer/NPM，PHPUnit，Photoshop</p>
+          <p class="resume-item-copy">熟练使用 macOS/Ubuntu/Windows, 能独立搭建LNMP环境, 完成基础网站建设</p>
         </div>
 
       </section>
@@ -271,6 +329,10 @@
         </div>
 
         <div class="resume-item">
+            <p class="resume-item-copy"><a href="https://laravel-china.org/topics/6216">Laravel 使用 JWT 实现 API Auth, 打造用户授权接口</a></p>
+          </div>
+
+        <div class="resume-item">
           <p class="resume-item-copy"><a href="https://laravel-china.org/topics/3343">我所理解的 Laravel 请求 生命周期(翻译文章)</a></p>
         </div>
 
@@ -290,7 +352,7 @@
           <ul class="resume-item-list">
             <li>英语基础良好，能流畅阅读英文文档，快速掌握新的开发技术</li>
             <li>喜欢尝试新鲜技术,热衷于解决问题的过程,勇于挑战自己</li>
-            <li>有过2年的远程开发经验，有较强的独立完成任务的能力</li>
+            <li>有超过2年的远程开发经验，有较强的独立完成任务的能力</li>
           </ul>
         </div>
 
